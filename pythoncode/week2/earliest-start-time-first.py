@@ -9,7 +9,7 @@ activities = []
 for _ in range(n):
     (start_time, end_time) = map(int, input().split())
     activities.append((start_time, end_time))
-activities.sort(key=lambda x: x[0])
+activities.sort(key=lambda x: x[1])
 print("activities: ")
 print(activities)
 
